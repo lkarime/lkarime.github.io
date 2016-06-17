@@ -33,8 +33,8 @@ padding-right: 4em;
 }
 
 .product{
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   padding: 2 2em;
   margin-left: 60px;
   margin-right: 50px;
@@ -47,6 +47,7 @@ li {display: inline-block;
 }
 main{
 background-color: #F5F1DF;
+
 }
 
 h2{color: #A18982;
@@ -54,4 +55,47 @@ h2{color: #A18982;
   text-align: left;
   margin-left: 3.5em;
 
+}
+
+.description{text-align: center;
+border: 4px solid #F5DEDF;
+margin-left: 45%;
+margin-right: 10%;
+margin-top: .5em;
+color: #A18982;
+background-color: #F5DEDF;
+
+}
+
+.mainpic{padding-left: 3em;
+  float: left;
+  display: inline-block;
+
+}
+
+.piccontact{
+  width: 15%;
+  height: 15%;
+
+}
+.map{
+  float: left;
+  color: #A18982;
+  background-color: #F5F1DF;
+  margin-left: 2%;
+  margin-right: 10%;
+  padding-left: 3em;
+  border: 3px solid #A18982;
+}
+
+.info li{display: block;
+padding: .5em;
+}
+
+h3{color: #A18982;
+}
+
+address{
+  float: right;
+  margin-left: .5em;
 }
