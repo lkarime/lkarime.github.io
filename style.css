@@ -71,8 +71,7 @@ background-color: #F5DEDF;
 .mainpic{padding-left: 3em;
   float: left;
   display: inline-block;
-  width: 10%;
-
+  margin: 10%;
 }
 
 .piccake{
