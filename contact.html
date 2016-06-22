@@ -27,15 +27,28 @@
 
 <div class="info">
 <h3>For inquires and orders, please call to the number below or filling up this form</h3>
-<ul>
-<li><input type="text" name="First_Name" id="First_name" value="First Name" maxlength="30"></li>
-<li><input type="text" name="Last_Name" id="Last_name" value="Last Name" maxlength="30"></li>
-<li><input type="email" name="Email" id="email" value="Email" maxlength="30"></li>
-<li><textarea type="text" name="Message" id="message" value="Message"></textarea></li>
-</ul>
-</div>
+<info>
+  <label for="first">First Name</label>
+  <input type="text" id="first" name="first" placeholder="First Name">
+  <label for="last">Last Name</label>
+  <input type="text" id="last"  name="last" placeholder="Last Name">
+  <label for="email">Email</label>
+  <input type="email" id="email"  name="email"  placeholder="Email Address">
+  <label for="about"  id="about">
+  <select name="about" id="about">
+    <option>Choose One..</option>
+    <option value="support">Support</option>
+    <option value="sales">Sales</option>
+    <option value="other">Other</option>
+  </select>
+  <label for="message">Message</label>
+  <textarea id="message" name="message" cols="20" rows="10"</textarea>
+<!-- </div>
 
-<img class="piccontact"src="https://wwcdn.weddingwire.com/vendor/185001_190000/188838/thumbnails/800x800_1403210120252-tonyandmaureen43786.jpg"></img>
+<div class="info2"> -->
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+</div>
 
 
   </main>
